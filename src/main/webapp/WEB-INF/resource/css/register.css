@@ -1,0 +1,30 @@
+@import "font-awesome.min.css";
+@import "font-awesome-ie7.min.css";
+
+.header,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.header h3 {
+  padding-bottom: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+@media (min-width: 800px) {
+  .container {
+    max-width: 750px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+.form-actions{
+  margin:0;
+  background-color: transparent;;
+  text-align: center;
+}

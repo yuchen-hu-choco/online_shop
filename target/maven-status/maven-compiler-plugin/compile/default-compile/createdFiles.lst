@@ -1,0 +1,16 @@
+onlineShop\model\ShippingAddress.class
+onlineShop\ApplicationConfig.class
+onlineShop\model\Product.class
+onlineShop\model\BillingAddress.class
+onlineShop\model\User.class
+onlineShop\log\Logger.class
+onlineShop\model\Authorities.class
+onlineShop\model\CartItem.class
+onlineShop\model\SalesOrder.class
+onlineShop\Application.class
+onlineShop\log\PaymentAction.class
+onlineShop\SecurityConfig.class
+onlineShop\log\ServerLogger.class
+onlineShop\controller\HomePageController.class
+onlineShop\model\Cart.class
+onlineShop\model\Customer.class
