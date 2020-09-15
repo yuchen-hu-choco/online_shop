@@ -22,7 +22,7 @@
     </view-state>
 
      <view-state id="orderConfirmation" view = "orderConfirmation.jsp"> 
-         <transition on="orderConfirmed" to="processOrder" /> 
+         <transition on="orderConfirmed" to="saveOrder" /> 
          <transition on="backToCollectShippingDetail" to="collectShippingDetail" /> 
      </view-state> 
 
@@ -31,7 +31,12 @@
         <transition to="thankCustomer" />
     </action-state>
 
-
+	<action-state id="saveOrder">
+    	<evaluate expression="salesOrderService.addSalesOrder(order)" />
+    	<transition to="processOrder" />
+    </action-state>
+    
+    
     <view-state id="thankCustomer" model="order">
         <transition to="endState" />
     </view-state>
